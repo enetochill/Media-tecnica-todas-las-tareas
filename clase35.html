@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <title>Clase 35</title>
+  </head>
+  <body>
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+        Prueba modal
+      </button>
+      <div class="modal" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-primary" >Ejemplo Modal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Hola, esto es un ejemplo de Modal</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Guardar cambios</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h3>Ejemplo de tooltip</h3>
+        <a href="#" data-toggle="tooltip" title="LOGRADO!">Aqui xd</a>
+      </div>
+
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Correo electronico:</label>
+          <input type="email" class="form-control" placeholder="Escribe tu email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Contraseña:</label>
+          <input type="password" class="form-control" placeholder="Escribe tu contraseña" id="pwd">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Recordar mis datos
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+    <!-- Optional JavaScript   -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/tooltip.js"></script>
+    
+  </body>
+</html>
